@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header_sec{
+    padding: 80px 120px;
+    height: 600px;
+  }
+  /* 1st part */
+  .first_part{
+    height: 600px;
+    width: 100%;
+    background-image: url(1st_img.jpg);
+    background-position: center; 
+    background-size: cover;
+    color: white;
+    padding-top: 400px;
+    
+  }
+  .first_part h1{
+    text-align: center;
+    font-size: 40px;
+
+  }
+  .first_part p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 50px;
+  }
+  /* 2nd part */
+  .secend_part{
+      height: 500px;
+      width: 100%;
+      background-color: whitesmoke;
+      padding: 120px 100px;
+  }
+  .secend_part h1{
+      text-align: center;
+      font-size: 40px; 
+      text-transform: uppercase; 
+      letter-spacing: 6px; 
+  }
+  .secend_part p{
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 50px;
+    padding-top: 60px; 
+  }
+
+  /* 3rd part */
+  .third_part{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    padding: 120px 100px;
+    color: white;
+  }
+  .third_part h1{
+    text-align: center;
+    font-size: 40px; 
+    text-transform: uppercase; 
+    letter-spacing: 6px;  
+  }
+
+  .third_part p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 50px;
+    padding-top: 40px; 
+    padding-bottom: 50px;
+    color: rgb(121, 115, 115);
+  }
+
+  .card{
+    background-color: white;
+    width:100%;
+    
+   
+ }
+  h4{  
+    margin: 0 10px; 
+    padding: 10px;
+    color: rgb(88, 76, 76);
+ }
+ 
+ .card span{
+    background-color:red;
+    margin: 0 30px 0px 10px;
+    padding: 5px;
+    color: white;
+ }
+ 
+ .last-child{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .last-child span{
+    background:#070707;
+    color:#fff;
+    font-size:13px;
+    border-radius: 50%;
+    margin: 10px 70px;
+    padding: 5px 10px;
+ }
+
+
+
+
+  
