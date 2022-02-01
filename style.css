@@ -2,110 +2,190 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  .header_sec{
+}
+
+.header_sec {
     padding: 80px 120px;
     height: 600px;
-  }
-  /* 1st part */
-  .first_part{
+}
+
+
+/* 1st part */
+
+.first_part {
     height: 600px;
     width: 100%;
     background-image: url(1st_img.jpg);
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     color: white;
     padding-top: 400px;
-    
-  }
-  .first_part h1{
+}
+
+.first_part h1 {
     text-align: center;
     font-size: 40px;
+}
 
-  }
-  .first_part p{
+.first_part p {
     text-align: center;
     font-size: 24px;
     font-weight: 50px;
-  }
-  /* 2nd part */
-  .secend_part{
-      height: 500px;
-      width: 100%;
-      background-color: whitesmoke;
-      padding: 120px 100px;
-  }
-  .secend_part h1{
-      text-align: center;
-      font-size: 40px; 
-      text-transform: uppercase; 
-      letter-spacing: 6px; 
-  }
-  .secend_part p{
+}
+
+
+/* 2nd part */
+
+.secend_part {
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 120px 100px;
+}
+
+.secend_part h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.secend_part p {
     text-align: justify;
     font-size: 24px;
     font-weight: 50px;
-    padding-top: 60px; 
-  }
+    padding-top: 60px;
+}
 
-  /* 3rd part */
-  .third_part{
+
+/* 3rd part */
+
+.third_part {
     height: 500px;
     width: 100%;
     background-color: black;
     padding: 120px 100px;
     color: white;
-  }
-  .third_part h1{
-    text-align: center;
-    font-size: 40px; 
-    text-transform: uppercase; 
-    letter-spacing: 6px;  
-  }
+}
 
-  .third_part p{
+.third_part h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.third_part p {
     text-align: center;
     font-size: 24px;
     font-weight: 50px;
-    padding-top: 40px; 
+    padding-top: 40px;
     padding-bottom: 50px;
     color: rgb(121, 115, 115);
-  }
+}
 
-  .card{
+.card {
     background-color: white;
-    width:100%;
-    
-   
- }
-  h4{  
-    margin: 0 10px; 
+    width: 100%;
+}
+
+h4 {
+    margin: 0 10px;
     padding: 10px;
     color: rgb(88, 76, 76);
- }
- 
- .card span{
-    background-color:red;
+}
+
+.card span {
+    background-color: red;
     margin: 0 30px 0px 10px;
     padding: 5px;
     color: white;
- }
- 
- .last-child{
+}
+
+.last-child {
     display: flex;
     justify-content: space-between;
- }
- 
- .last-child span{
-    background:#070707;
-    color:#fff;
-    font-size:13px;
+}
+
+.last-child span {
+    background: #070707;
+    color: #fff;
+    font-size: 13px;
     border-radius: 50%;
     margin: 10px 70px;
     padding: 5px 10px;
- }
+}
 
 
+/* contact */
+
+.contact {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    padding: 120px 100px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: rgb(121, 115, 115);
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.left ul li {
+    font-size: 18px;
+    font-weight: 400px;
+    margin: 5px 0;
+    list-style: none;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+input {
+    width: 98%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+}
+
+.send {
+    float: right;
+    background: #070707;
+    color: #fff;
+    font-size: 13px;
+    margin: 10px;
+    padding: 5px 10px;
+}
 
 
-  
+/* footer */
+
+.footer {
+    width: 100%;
+}
+
+.footer img {
+    width: 100%;
+    height: 400px;
+}
